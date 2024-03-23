@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Merry CSV Reader - The Ultimate CSV File Editor</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #f5f5f5;
+       }
+
+       .container {
+           max-width: 800px;
+           margin: 0 auto;
+           padding: 20px;
+           background-color: #fff;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+
+       h1, h2, h3 {
+           color: #333;
+       }
+
+       .highlight {
+           color: #e67e22;
+           font-weight: bold;
+       }
+
+       .btn {
+           display: inline-block;
+           padding: 10px 20px;
+           background-color: #e67e22;
+           color: #fff;
+           text-decoration: none;
+           border-radius: 4px;
+           transition: background-color 0.3s ease;
+       }
+
+       .btn:hover {
+           background-color: #ab5ae0;
+           color: #220852;
+           border-radius: 25px;
+           transition: 1.2s;
+       }
+       .download-section{
+        border-style: dotted;
+        border-color: rgb(139, 98, 235);
+        display: contents;
+        text-align: center; 
+        
+        }
+
+        /* Navbar Styles */
+        .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #9d70f1;
+        opacity: 0.3;
+        color: #000000;
+        padding: 3px 30px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        font-weight: 800;
+        }
+
+        .navbar-left .logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        }
+
+        .navbar-left .logo img {
+        height: 30px;
+        margin-right: 10px;
+        background-color: #ffffff;
+        border-radius: 12px;
+                }
+
+        .navbar-right .author-info {
+        display: flex;
+        align-items: center;
+        color: #000;
+        }
+
+        .navbar-right .author-info img {
+        height: 25px;
+        margin-right: 5px;
+        }
+
+        /* Download Section Styles */
+        .download-section {
+        text-align: center;
+        margin-top: 80px; /* Adjust this value to create space for the fixed navbar */
+        padding: 20px;
+        background-color: #f5f5f5;
+        }
+
+        .download-section h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        }
+
+        .download-section p {
+        margin: 5px 0;
+        }
+
+        .download-btn {
+        display: block;
+        padding: 10px 20px;
+        background-color: #e67e22;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+        position: relative;
+        }
+
+        .download-btn:hover {
+        background-color: #ffffff;
+        color: #f87605;
+        transition: 1.1s;
+        }
+
+        /* Container Styles */
+        .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .company-name{
+            color: #000000;
+        }
+        footer :hover{
+            background-color: #f5e6a5;
+            padding: 20px;
+            transition-duration: 8s;
+                                  
+        }
+        
+   </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+          <a href="#" class="logo">
+            <img src="ic2.png" alt="MerryTech">
+            <span class="company-name">Merry CSV Reader</span>
+          </a>
+        </div>
+        
+        <div class="navbar-right">
+          <div class="author-info">
+            <img src="unnamed.jpg" alt="Author Icon">
+            <span class="author-name">Brian.K</span>
+          </div>
+        </div>
+       </nav> 
+   <div class="container">
+       <h1>Merry CSV Reader: <span class="highlight">The Ultimate CSV File Editor</span></h1>
+       <p>Introducing Merry CSV Reader, a powerful and user-friendly application designed to revolutionize the way you work with CSV (Comma-Separated Values) files. This remarkable tool is a true gem, offering a seamless and efficient experience for data analysts, researchers, and anyone who needs to handle tabular data with ease.</p>
+       <h2>Unleash the Power of <span class="highlight">Efficient Data Handling</span></h2>
+       <p>With Merry CSV Reader, you can harness the immense capabilities of the renowned pandas library, enabling you to load and process even the largest CSV files with lightning-fast speed and precision. Say goodbye to the frustrations of sluggish performance and embrace a world of effortless data manipulation.</p>
+
+       <h2><span class="highlight">User-Friendly Interface</span>: Elegance Meets Functionality</h2>
+       <p>Merry CSV Reader boasts a sleek and intuitive graphical user interface (GUI) that is a true delight to use. Its clean and modern design ensures a smooth and enjoyable experience, allowing you to navigate through your data with ease and perform various operations with just a few clicks.</p>
+       ass="highlight">Powerful Data Analysis Tools</span> at Your Fingertips</h2>
+       <p>Merry CSV Reader is packed with a suite of powerful data analysis tools, giving you the ability to sort, describe, retrieve column names, and get row counts with just a few clicks. Whether you're exploring complex datasets or performing routine data checks, this application has you covered.</p>
+
+       <h2><span class="highlight">Customizable Appearance</span>: Make It Your Own</h2>
+       <p>We understand that personal preference plays a significant role in productivity. That's why Merry CSV Reader allows you to customize the appearance of certain UI elements, such as button styles and background colors, ensuring a personalized experience that suits your taste and enhances your overall workflow.</p>
+
+       <h2>The <span class="highlight">Privilege</span> of a Free Tool</h2>
+       <p>In a world where premium software often comes with a hefty price tag, Merry CSV Reader stands out as a remarkable exception. This powerful application is available to you completely free of charge, offering a truly privileged experience without any financial burden.</p>
+
+       <p>Don't miss out on this incredible opportunity to elevate your CSV file handling game. <a href="#" class="btn">Download Merry CSV Reader Today</a> and experience the future of efficient data management.</p>
+   </div>
+    <div class="download-section">
+        <h2>Download Merry CSV Reader</h2>
+        <p>Version: 1.0</p>
+        <p>Year: 2024</p>
+        <a href="merry.csv" class="download-btn">Download Now</a>
+    </div>
+
+
+   <div class="container" style="border-radius: 21px;">
+        <div class="feature-details">
+            <h2>Explore the Powerful Features of Merry CSV Reader</h2>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#9733;</span> Efficient Data Loading</h3>
+                <p>Leveraging the robust capabilities of the pandas library, Merry CSV Reader allows you to load and process even the largest CSV files with incredible speed and precision. Say goodbye to the frustrations of sluggish performance and embrace a seamless data handling experience.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#9745;</span> Intuitive Interface</h3>
+                <p>Merry CSV Reader boasts a sleek and user-friendly graphical user interface (GUI) that is a true delight to use. Its clean and modern design ensures a smooth and enjoyable experience, allowing you to navigate through your data with ease and perform various operations with just a few clicks.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#9998;</span> In-Place Editing</h3>
+                <p>One of the standout features of Merry CSV Reader is its ability to directly edit cell values within the table view. With a simple double-click or press of the Enter/Return key, you can effortlessly modify your data, streamlining your workflow and saving you valuable time.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#128200;</span> Powerful Data Analysis</h3>
+                <p>Merry CSV Reader is packed with a suite of powerful data analysis tools, giving you the ability to sort, describe, retrieve column names, and get row counts with just a few clicks. Whether you're exploring complex datasets or performing routine data checks, this application has you covered.</p>
+            </div>
+            
+            <div class="feature-item">
+                <s><h3><span class="feature-icon">&#9878;</span> Customizable Appearance</h3>
+                <p>We understand that personal preference plays a significant role in productivity. That's why Merry CSV Reader allows you to customize the appearance of certain UI elements, such as button styles and background colors, ensuring a personalized experience that suits your taste and enhances your overall workflow.</p></s>
+            </div>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#127891;</span> Free to Use</h3>
+                <p>In a world where premium software often comes with a hefty price tag, Merry CSV Reader stands out as a remarkable exception. This powerful application is available to you completely free of charge, offering a truly privileged experience without any financial burden.</p>
+            </div>
+       <h2>In-Place <span class="highlight">Editing Made Simple</span></h2>
+       <p>One of the standout features of Merry CSV Reader is its ability to directly edit cell values within the table view. With a simple double-click or press of the Enter/Return key, you can effortlessly modify your data, streamlining your workflow and saving you valuable time.</p>
+
+       <h2><span class="highlight">Powerful Data Analysis Tools</span> at Your Fingertips</h2>
+       <p>Merry CSV Reader is packed with a suite of powerful data analysis tools, giving you the ability to sort, describe, retrieve column names, and get row counts with just a few clicks. Whether you're exploring complex datasets or performing routine data checks, this application has you covered.</p>
+
+       <h2><span class="highlight">Customizable Appearance</span>: Make It Your Own</h2>
+       <p>We understand that personal preference plays a significant role in productivity. That's why Merry CSV Reader allows you to customize the appearance of certain UI elements, such as button styles and background colors, ensuring a personalized experience that suits your taste and enhances your overall workflow.</p>
+
+       <h2>The <span class="highlight">Privilege</span> of a Free Tool</h2>
+       <p>In a world where premium software often comes with a hefty price tag, Merry CSV Reader stands out as a remarkable exception. This powerful application is available to you completely free of charge, offering a truly privileged experience without any financial burden.</p>
+
+       <p>Don't miss out on this incredible opportunity to elevate your CSV file handling game. <a href="#" class="btn">Download Merry CSV Reader Today</a> and experience the future of efficient data management.</p>
+   </div>
+    <div class="download-section">
+        <h2>Download Merry CSV Reader</h2>
+        <p>Version: 1.0</p>
+        <p>Year: 2024</p>
+        <a href="merry.csv" class="download-btn">Download Now</a>
+    </div>
+
+
+   <div class="container" style="border-radius: 21px;">
+        <div class="feature-details">
+            <h2>Explore the Powerful Features of Merry CSV Reader</h2>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#9733;</span> Efficient Data Loading</h3>
+                <p>Leveraging the robust capabilities of the pandas library, Merry CSV Reader allows you to load and process even the largest CSV files with incredible speed and precision. Say goodbye to the frustrations of sluggish performance and embrace a seamless data handling experience.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#9745;</span> Intuitive Interface</h3>
+                <p>Merry CSV Reader boasts a sleek and user-friendly graphical user interface (GUI) that is a true delight to use. Its clean and modern design ensures a smooth and enjoyable experience, allowing you to navigate through your data with ease and perform various operations with just a few clicks.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#9998;</span> In-Place Editing</h3>
+                <p>One of the standout features of Merry CSV Reader is its ability to directly edit cell values within the table view. With a simple double-click or press of the Enter/Return key, you can effortlessly modify your data, streamlining your workflow and saving you valuable time.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#128200;</span> Powerful Data Analysis</h3>
+                <p>Merry CSV Reader is packed with a suite of powerful data analysis tools, giving you the ability to sort, describe, retrieve column names, and get row counts with just a few clicks. Whether you're exploring complex datasets or performing routine data checks, this application has you covered.</p>
+            </div>
+            
+            <div class="feature-item">
+                <s><h3><span class="feature-icon">&#9878;</span> Customizable Appearance</h3>
+                <p>We understand that personal preference plays a significant role in productivity. That's why Merry CSV Reader allows you to customize the appearance of certain UI elements, such as button styles and background colors, ensuring a personalized experience that suits your taste and enhances your overall workflow.</p></s>
+            </div>
+            
+            <div class="feature-item">
+                <h3><span class="feature-icon">&#127891;</span> Free to Use</h3>
+                <p>In a world where premium software often comes with a hefty price tag, Merry CSV Reader stands out as a remarkable exception. This powerful application is available to you completely free of charge, offering a truly privileged experience without any financial burden.</p>
+            </div>
+        </div>
+   </div>
+
+ <footer style="background-color: #f8e1cd;border-radius: 21px;" class="container">
+    <div class="author">
+        <h3>Author</h3>
+        <p>Merry CSV Reader is created by Brian.K, a passionate developer dedicated to building efficient and user-friendly software solutions.<br>Anyways, i went searching for a csv reader and didn't get what i wanted,so i tried to build mine.</p>
+    </div>
+    
+    <div class="contacts">
+        <h3>Contact</h3>
+        <p>Email: briansbrian@github.com</p>
+        <p>Twitter: <a href="https://dailybuzz.me" target="_blank">My About Page</a></p>
+        <p>GitHub: <a href="https://github.com/briansbrian/merry_csv" target="_blank">briansbrian</a></p>
+    </div>
+    
+    <div class="donation">
+        <h3>Support Development</h3>
+        <p>If you find Merry CSV Reader useful and would like to support further development, you can make a donation:</p>
+        <form>
+            <input type="number" placeholder="Amount ($)" min="1" step="0.01" required>
+            <button type="submit">Donate</button>
+        </form>
+    </div>
+ </footer>
+</body>
+</html>
