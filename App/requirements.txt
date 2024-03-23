@@ -1,0 +1,6 @@
+pandas
+numpy
+pyside6
+asyncio
+multiprocessing
+io
