@@ -6,3 +6,6 @@ Here is the python code
 ## Documentation
 Am working on a full documentation for the code
 Meanwwhile try exploring and contributing to make it better.
+----
+merry.csv is a pre-loaded csv. Its not a mandatory requirement, but    
+its good for the display.
