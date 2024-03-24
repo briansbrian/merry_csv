@@ -1,4 +1,6 @@
- ## How to install
+## Download link is currently down 
+
+## How to install
 Install package here or navigate to webiste
 https://merrytech.dailybuzz.me
 **After installing merry.deb, open terminal and type merry**
