@@ -1,6 +1,6 @@
 # Merry CSV Reader: _**The Ultimate CSV File Editor**_
 
-Introducing Merry CSV Reader, a powerful and user-friendly application designed to revolutionize the way you work with CSV (Comma-Separated Values) files. This remarkable tool is a true gem, offering a seamless and efficient experience for data analysts, researchers, and anyone who needs to handle tabular data with ease.
+Introducing Merry CSV Reader, a powerful and user-friendly application designed to revolutionize the way you work with CSV (Comma-Separated Values) files. This remarkable tool is a true gem, offering a seamless and efficient experience for data analysts, researchers, and anyone who needs to handle tabular data with ease.   
 ![Merry first Look!](/icons/merry.png "Merry display")
 
 ## Unleash the Power of _**Efficient Data Handling**_
