@@ -54,9 +54,6 @@ One of the standout features of Merry CSV Reader is its ability to directly edit
 
 Merry CSV Reader is packed with a suite of powerful data analysis tools, giving you the ability to sort, describe, retrieve column names, and get row counts with just a few clicks. Whether you're exploring complex datasets or performing routine data checks, this application has you covered.
 
-### ~~:guitar: Customizable Appearance~~
-
-~~We understand that personal preference plays a significant role in productivity. That's why Merry CSV Reader allows you to customize the appearance of certain UI elements, such as button styles and background colors, ensuring a personalized experience that suits your taste and enhances your overall workflow.~~
 
 ### :gift: Free to Use
 
